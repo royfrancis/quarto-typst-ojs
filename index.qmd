@@ -3,7 +3,7 @@ title: Make PDF
 subtitle: Generate PDF using Typst and OJS
 format: html
 execute:
-  echo: false
+  echo: true
 ---
 
 ## Settings
