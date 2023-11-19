@@ -1,0 +1,43 @@
+---
+title: Make PDF
+subtitle: Generate PDF using Typst and OJS
+format: html
+execute:
+  echo: false
+---
+
+## Settings
+
+```{ojs}
+viewof award = Inputs.textarea({label: "Award type", value: "Sixtus award", placeholder: "Names of the awards"})
+```
+
+```
+// pass award to scripts.sh
+// run script.sh
+// cannot run bash chunk without R or Python?
+```
+
+## Preview
+
+```{ojs}
+// preview one of the pdfs
+import {pdfView} from "@saneef/pdf-view"
+pdfView("pdfs/Sixtus Award.pdf")
+```
+
+## Download
+
+```{ojs}
+JSZip = require('https://unpkg.com/jszip@3.1.5/dist/jszip.min.js')
+zip = {
+  const zip = new JSZip()
+  const folder = zip.folder('pdfs')
+  //folder.file('data.txt', data)
+  return zip.generateAsync({type: 'blob'})
+}
+```
+
+```{ojs}
+DOM.download(zip, 'pdfs.zip')
+```

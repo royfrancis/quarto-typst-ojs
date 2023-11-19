@@ -1,0 +1,32 @@
+---
+title: "Chemistry Department"
+edition: |
+   March 18th, 2023 \
+   Purview College
+hero-image: 
+  path: "newsletter-cover.jpg"
+  caption: "Award winning science"
+publication-info: |
+  The Dean of the Department of Chemistry. \
+  Purview College, 17 Earlmeyer D, Exampleville, TN 59341. \
+  <mailto:newsletter@chem.purview.edu>
+award: "Sixtus Award"
+format:
+  dept-news-typst: default
+---
+
+# The {{< meta award >}} goes to Purview
+
+It's our pleasure to announce that our department has recently been awarded the highly-coveted {{< meta award >}} for Excellence in Chemical Research. This is a massive achievement for our department, and we couldn't be prouder.
+
+The {{< meta award >}} is a prestigious recognition given to institutions that have demonstrated exceptional performance in chemical research. This achievement is a testament to the hard work, dedication, and passion of our faculty, students, and staff. Our department has consistently produced groundbreaking research that has contributed to the advancement of this field, and we're honored to receive this recognition.
+
+::: {.article}
+## Guest lecture from Dr. Elizabeth Lee
+  
+Elizabeth Lee, a leading researcher in the field, spoke about her recent work on the development of new cancer treatments using small molecule inhibitors, and the lecture was very well-attended by both students and faculty.
+
+In case you missed it, there's a recording on [EDGARP](http://purview.edu/lts/2023-lee")
+:::
+
+
